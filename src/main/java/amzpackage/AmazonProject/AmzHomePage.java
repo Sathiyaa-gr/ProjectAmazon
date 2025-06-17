@@ -51,6 +51,7 @@ public class AmzHomePage
 	{
 		signout.click();
 		
+		
 	}
 	//step 3
 	public AmzHomePage(WebDriver driver)

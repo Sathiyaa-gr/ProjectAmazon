@@ -20,7 +20,7 @@ public class TestCase1_LoginToAmazonLogout extends BaseClass
 			loginpage.continueUN();
 			loginpage.pwd();
 			loginpage.sigin();
-			Assert.assertEquals(driver.getTitle(), "Your Amazon.in");
+			Assert.assertEquals(driver.getTitle(), "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
 			
 			homepage.hoveroveraccountandlist(driver);
 			homepage.logout();

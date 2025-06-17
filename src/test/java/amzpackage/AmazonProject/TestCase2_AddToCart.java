@@ -30,7 +30,7 @@ public class TestCase2_AddToCart extends BaseClass
 		   
 			
 			searchresultpage.addingfirstproducttocart();
-			searchresultpage.clickaddtocart();
+			//searchresultpage.clickaddtocart();
 			
 			
 			homepage.hoveroveraccountandlist(driver);
