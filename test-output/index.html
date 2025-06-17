@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\anbuj\AppData\Local\Temp\testng-eclipse--704521333\testng-customsuite.xml</span>
+                    <span>C:\Users\anbuj\AppData\Local\Temp\testng-eclipse-1816197535\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="amzpackage.AmazonProject.TestCase2_AddToCart" class="method navigator-link" hash-for-method="withvalidvredentails">withvalidvredentails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout" class="method navigator-link" hash-for-method="withvalidvredentails">withvalidvredentails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,7 +121,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">amzpackage.AmazonProject.TestCase2_AddToCart</span>
+              <span class="class-name">amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -129,34 +129,14 @@
                   <a name="withvalidvredentails">
                   </a> <!-- withvalidvredentails -->
                   <span class="method-name">withvalidvredentails</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[.=&apos;Sign in&apos;])[1]&quot;}
-  (Session info: chrome=137.0.7151.104)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f62833f4f394955a58561044063030d, findElement {using=xpath, value=(//span[.=&apos;Sign in&apos;])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59934/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f62833f4f394955a58561044063030d
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at amzpackage.AmazonProject.AmzHomePage.signin(AmzHomePage.java:52)
-	at amzpackage.AmazonProject.TestCase2_AddToCart.withvalidvredentails(TestCase2_AddToCart.java:14)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Amazon.in] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout.withvalidvredentails(TestCase1_LoginToAmazonLogout.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -192,7 +172,7 @@ Session ID: 9f62833f4f394955a58561044063030d
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\anbuj\AppData\Local\Temp\testng-eclipse--704521333\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\anbuj\AppData\Local\Temp\testng-eclipse-1816197535\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -201,11 +181,11 @@ Session ID: 9f62833f4f394955a58561044063030d
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;amzpackage.AmazonProject.TestCase2_AddToCart&quot;&gt;
+      &lt;class name=&quot;amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;withvalidvredentails&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- amzpackage.AmazonProject.TestCase2_AddToCart --&gt;
+      &lt;/class&gt; &lt;!-- amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -248,13 +228,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'withvalidvredentails')
-data.setCell(0, 2, 'amzpackage.AmazonProject.TestCase2_AddToCart')
-data.setCell(0, 3, 14874);
+data.setCell(0, 2, 'amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout')
+data.setCell(0, 3, 8123);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -280,7 +260,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">amzpackage.AmazonProject.TestCase2_AddToCart</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch</span>
                 <span class="method-start">0 ms</span>
@@ -289,11 +269,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">withvalidvredentails</span>
-                <span class="method-start">2644 ms</span>
+                <span class="method-start">3490 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">17524 ms</span>
+                <span class="method-start">11619 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

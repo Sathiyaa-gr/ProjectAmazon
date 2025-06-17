@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="44.945" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="50.741" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Users\anbuj\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\anbuj\AppData\Local\Temp\surefire935564127831058702\surefirebooter-20250616220039477_3.jar C:\Users\anbuj\AppData\Local\Temp\surefire935564127831058702 2025-06-16T22-00-39_172-jvmRun1 surefire-20250616220039477_1tmp surefire_0-20250616220039477_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\anbuj\AppData\Local\Temp\surefire880358804178426602\surefirebooter-20250616225838262_3.jar C:\Users\anbuj\AppData\Local\Temp\surefire880358804178426602 2025-06-16T22-58-38_131-jvmRun1 surefire-20250616225838262_1tmp surefire_0-20250616225838262_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\anbuj\eclipse-workspace\AmazonProject\target\test-classes;C:\Users\anbuj\eclipse-workspace\AmazonProject\target\classes;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-java\4.32.0\selenium-java-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-api\4.32.0\selenium-api-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.32.0\selenium-chrome-driver-4.32.0.jar;C:\Users\anbuj\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.32.0\selenium-chromium-driver-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-json\4.32.0\selenium-json-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.32.0\selenium-manager-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.32.0\selenium-devtools-v134-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.32.0\selenium-devtools-v135-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.32.0\selenium-devtools-v136-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.32.0\selenium-edge-driver-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.32.0\selenium-firefox-driver-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-http\4.32.0\selenium-http-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.32.0\selenium-ie-driver-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.32.0\selenium-remote-driver-4.32.0.jar;C:\Users\anbuj\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\anbuj\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\anbuj\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\anbuj\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\anbuj\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.49.0\opentelemetry-exporter-logging-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.49.0\opentelemetry-sdk-extension-autoconfigure-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\anbuj\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\anbuj\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-os\4.32.0\selenium-os-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.32.0\selenium-safari-driver-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\seleniumhq\selenium\selenium-support\4.32.0\selenium-support-4.32.0.jar;C:\Users\anbuj\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\anbuj\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\anbuj\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\anbuj\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\anbuj\AppData\Local\Temp\surefire935564127831058702\surefirebooter-20250616220039477_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\anbuj\AppData\Local\Temp\surefire880358804178426602\surefirebooter-20250616225838262_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7"/>
@@ -60,36 +60,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="withvalidvredentails" classname="amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout" time="15.349">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[.=&apos;Sign in&apos;])[1]&quot;}&#10;  (Session info: chrome=137.0.7151.104)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7e539fab6238cd3dc7a06608b85db505, findElement {using=xpath, value=(//span[.=&apos;Sign in&apos;])[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7e539fab6238cd3dc7a06608b85db505" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//span[.='Sign in'])[1]"}
-  (Session info: chrome=137.0.7151.104)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e539fab6238cd3dc7a06608b85db505, findElement {using=xpath, value=(//span[.='Sign in'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e539fab6238cd3dc7a06608b85db505
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
-	at amzpackage.AmazonProject.AmzHomePage.signin(AmzHomePage.java:52)
-	at amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout.withvalidvredentails(TestCase1_LoginToAmazonLogout.java:15)
+  <testcase name="withvalidvredentails" classname="amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout" time="10.863">
+    <failure message="expected [Your Amazon.in] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Your Amazon.in] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout.withvalidvredentails(TestCase1_LoginToAmazonLogout.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -124,21 +103,21 @@ Session ID: 7e539fab6238cd3dc7a06608b85db505
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jun 16, 2025 10:00:44 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 16, 2025 10:58:40 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
 ]]></system-err>
   </testcase>
-  <testcase name="withvalidvredentails" classname="amzpackage.AmazonProject.TestCase2_AddToCart" time="15.261">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[.=&apos;Sign in&apos;])[1]&quot;}&#10;  (Session info: chrome=137.0.7151.104)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [35ddde3381f31cde8625f8fb4a623c03, findElement {using=xpath, value=(//span[.=&apos;Sign in&apos;])[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63058/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 35ddde3381f31cde8625f8fb4a623c03" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//span[.='Sign in'])[1]"}
+  <testcase name="withvalidvredentails" classname="amzpackage.AmazonProject.TestCase2_AddToCart" time="25.216">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;a-row a-size-medium&apos;]//button&quot;}&#10;  (Session info: chrome=137.0.7151.104)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f0aeea7a48d5c01ec77597eeb2eb1766, findElement {using=xpath, value=//div[@class=&apos;a-row a-size-medium&apos;]//button}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53918}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53918/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f0aeea7a48d5c01ec77597eeb2eb1766" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='a-row a-size-medium']//button"}
   (Session info: chrome=137.0.7151.104)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35ddde3381f31cde8625f8fb4a623c03, findElement {using=xpath, value=(//span[.='Sign in'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63058/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35ddde3381f31cde8625f8fb4a623c03
+Command: [f0aeea7a48d5c01ec77597eeb2eb1766, findElement {using=xpath, value=//div[@class='a-row a-size-medium']//button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53918}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53918/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0aeea7a48d5c01ec77597eeb2eb1766
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -156,8 +135,8 @@ Session ID: 35ddde3381f31cde8625f8fb4a623c03
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
-	at amzpackage.AmazonProject.AmzHomePage.signin(AmzHomePage.java:52)
-	at amzpackage.AmazonProject.TestCase2_AddToCart.withvalidvredentails(TestCase2_AddToCart.java:14)
+	at amzpackage.AmazonProject.AmzSearchResultPage.clickaddtocart(AmzSearchResultPage.java:30)
+	at amzpackage.AmazonProject.TestCase2_AddToCart.withvalidvredentails(TestCase2_AddToCart.java:33)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -189,7 +168,7 @@ Session ID: 35ddde3381f31cde8625f8fb4a623c03
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Jun 16, 2025 10:01:05 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 16, 2025 10:58:57 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
 ]]></system-err>
   </testcase>

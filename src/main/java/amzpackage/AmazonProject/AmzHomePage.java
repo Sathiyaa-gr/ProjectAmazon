@@ -15,7 +15,7 @@ public class AmzHomePage
 	@FindBy(xpath="//span[@class='nav-line-2 ']")
 	WebElement accountandlist;
 	
-	@FindBy(xpath="(//span[.='Sign in'])[1]")
+	@FindBy(xpath="//span[@class='nav-action-inner']")
 	WebElement signin_link;
 	
 	
@@ -31,12 +31,7 @@ public class AmzHomePage
 	{
 		Actions a1=new Actions(driver);
 		a1.moveToElement(accountandlist).perform();
-		JavascriptExecutor js=(JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0, 30);");
-		js.executeScript("arguments[0].scrollIntoView(true);", accountandlist);
-        Thread.sleep(2000); // short wait to let scroll finish
-
-        js.executeScript("arguments[0].click();", accountandlist);
+		
 		
 	}
 

@@ -134,15 +134,15 @@
                   <a name="withvalidvredentails">
                   </a> <!-- withvalidvredentails -->
                   <span class="method-name">withvalidvredentails</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[.=&apos;Sign in&apos;])[1]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;a-row a-size-medium&apos;]//button&quot;}
   (Session info: chrome=137.0.7151.104)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35ddde3381f31cde8625f8fb4a623c03, findElement {using=xpath, value=(//span[.=&apos;Sign in&apos;])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63058/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35ddde3381f31cde8625f8fb4a623c03
+Command: [f0aeea7a48d5c01ec77597eeb2eb1766, findElement {using=xpath, value=//div[@class=&apos;a-row a-size-medium&apos;]//button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53918}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53918/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0aeea7a48d5c01ec77597eeb2eb1766
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -157,8 +157,8 @@ Session ID: 35ddde3381f31cde8625f8fb4a623c03
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
-	at amzpackage.AmazonProject.AmzHomePage.signin(AmzHomePage.java:52)
-	at amzpackage.AmazonProject.TestCase2_AddToCart.withvalidvredentails(TestCase2_AddToCart.java:14)
+	at amzpackage.AmazonProject.AmzSearchResultPage.clickaddtocart(AmzSearchResultPage.java:30)
+	at amzpackage.AmazonProject.TestCase2_AddToCart.withvalidvredentails(TestCase2_AddToCart.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -177,33 +177,10 @@ Session ID: 35ddde3381f31cde8625f8fb4a623c03
                   <a name="withvalidvredentails">
                   </a> <!-- withvalidvredentails -->
                   <span class="method-name">withvalidvredentails</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[.=&apos;Sign in&apos;])[1]&quot;}
-  (Session info: chrome=137.0.7151.104)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e539fab6238cd3dc7a06608b85db505, findElement {using=xpath, value=(//span[.=&apos;Sign in&apos;])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e539fab6238cd3dc7a06608b85db505
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
-	at amzpackage.AmazonProject.AmzHomePage.signin(AmzHomePage.java:52)
-	at amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout.withvalidvredentails(TestCase1_LoginToAmazonLogout.java:15)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Amazon.in] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
+	at amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout.withvalidvredentails(TestCase1_LoginToAmazonLogout.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -265,17 +242,17 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'withvalidvredentails')
-data.setCell(0, 2, 'amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout')
-data.setCell(0, 3, 15337);
+data.setCell(0, 2, 'amzpackage.AmazonProject.TestCase2_AddToCart')
+data.setCell(0, 3, 25214);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'withvalidvredentails')
-data.setCell(1, 2, 'amzpackage.AmazonProject.TestCase2_AddToCart')
-data.setCell(1, 3, 15260);
+data.setCell(1, 2, 'amzpackage.AmazonProject.TestCase1_LoginToAmazonLogout')
+data.setCell(1, 3, 10858);
 window.suiteTableData['Integration_Suite']= { tableData: data, tableDiv: 'times-div-Integration_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Integration_Suite">
               </div> <!-- times-div-Integration_Suite -->
             </div> <!-- times-div -->
@@ -310,28 +287,28 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">withvalidvredentails</span>
-                <span class="method-start">4228 ms</span>
+                <span class="method-start">2995 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">19579 ms</span>
+                <span class="method-start">13859 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amzpackage.AmazonProject.TestCase2_AddToCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch</span>
-                <span class="method-start">22597 ms</span>
+                <span class="method-start">16870 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">withvalidvredentails</span>
-                <span class="method-start">25735 ms</span>
+                <span class="method-start">21825 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">40998 ms</span>
+                <span class="method-start">47042 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
